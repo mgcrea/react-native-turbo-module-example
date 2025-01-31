@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		09E7F50C2D4CC50B00748E86 /* RCTNativeLocalStorage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 09E7F50B2D4CC50B00748E86 /* RCTNativeLocalStorage.mm */; };
+		09E7F50E2D4CC80900748E86 /* NativeLocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E7F50D2D4CC80900748E86 /* NativeLocalStorage.swift */; };
 		0C80B921A6F3F58F76C31292 /* libPods-TurboModuleExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-TurboModuleExample.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		4F6B6CB3D82EFEF77A6DBA7E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
@@ -19,6 +20,7 @@
 		09E7F5092D4CC50B00748E86 /* TurboModuleExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TurboModuleExample-Bridging-Header.h"; sourceTree = "<group>"; };
 		09E7F50A2D4CC50B00748E86 /* RCTNativeLocalStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTNativeLocalStorage.h; sourceTree = "<group>"; };
 		09E7F50B2D4CC50B00748E86 /* RCTNativeLocalStorage.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RCTNativeLocalStorage.mm; sourceTree = "<group>"; };
+		09E7F50D2D4CC80900748E86 /* NativeLocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeLocalStorage.swift; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* TurboModuleExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurboModuleExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TurboModuleExample/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TurboModuleExample/Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 				09E7F50A2D4CC50B00748E86 /* RCTNativeLocalStorage.h */,
 				09E7F50B2D4CC50B00748E86 /* RCTNativeLocalStorage.mm */,
 				09E7F5092D4CC50B00748E86 /* TurboModuleExample-Bridging-Header.h */,
+				09E7F50D2D4CC80900748E86 /* NativeLocalStorage.swift */,
 			);
 			path = NativeLocalStorage;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09E7F50E2D4CC80900748E86 /* NativeLocalStorage.swift in Sources */,
 				09E7F50C2D4CC50B00748E86 /* RCTNativeLocalStorage.mm in Sources */,
 				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
 			);
