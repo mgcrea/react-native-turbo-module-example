@@ -14,7 +14,7 @@ static NSString *const RCTNativeLocalStorageKey = @"local-storage";
   NativeLocalStorage *_swiftLocalStorage;
 }
 
-RCT_EXPORT_MODULE(NativeLocalStorage)
+RCT_EXPORT_MODULE(NativeLocalStorageModule)
 
 - (id) init {
   if (self = [super init]) {

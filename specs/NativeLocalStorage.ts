@@ -8,4 +8,6 @@ export interface Spec extends TurboModule {
   clear(): void;
 }
 
-export default TurboModuleRegistry.getEnforcing<Spec>('NativeLocalStorage');
+export default TurboModuleRegistry.getEnforcing<Spec>(
+  'NativeLocalStorageModule',
+);
